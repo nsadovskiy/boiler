@@ -1,0 +1,25 @@
+#ifndef SETTINGS_H
+#define SETTINGS_H
+
+
+#define REFRESH_PERIOD 100
+
+#define RELAY_PIN    8
+#define TEMP_POT_PIN 0
+
+
+#define POT_MIN_VALUE 0
+#define POT_MAX_VALUE 1023
+
+#define HEATER_HYSTERESIS 5
+#define HEATER_MIN_TEMP   10
+#define HEATER_MAX_TEMP   85
+
+#define PIPE_LOW_TEMPERATURE  30.0
+#define PIPE_HIGH_TEMPERATURE 32.0
+
+#define HEATER_PIN1 10
+#define HEATER_PIN2 11
+#define HEATER_PIN3 12
+
+#endif
