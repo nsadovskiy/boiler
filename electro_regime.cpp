@@ -13,11 +13,11 @@ void electro_regime_t::process_temperature(const float temperature) {
   
   switch_on_pipe();
   
-  if (static_cast<int>(temperature) < _temp_range.get_min_value() && _heater.is_off()) {
+  if (static_cast<int>(temperature) < _temp_range.get_min_value()) {
     _heater.switch_on();
   }
 
-  if (static_cast<int>(temperature) > _temp_range.get_max_value() && _heater.is_on()) {
+  if (static_cast<int>(temperature) > _temp_range.get_max_value()) {
     _heater.switch_off();
   }
 }
