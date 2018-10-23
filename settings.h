@@ -18,8 +18,8 @@
 #define PIPE_LOW_TEMPERATURE  30.0
 #define PIPE_HIGH_TEMPERATURE 32.0
 
-#define HEATER_PIN1 10
-#define HEATER_PIN2 11
-#define HEATER_PIN3 12
+#define HEATER_PIN1 11
+#define HEATER_PIN2 12
+#define HEATER_PIN3 13
 
 #endif
