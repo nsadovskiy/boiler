@@ -40,7 +40,9 @@ void setup() {
 
 void lcd_out(float current_temp) {
   lcd.setCursor(0, 0);
+  
   lcd.print(String(current_temp, 1));
+  lcd.print((char)223);
   
   lcd.setCursor(0, 1);
   lcd.print(String(temp_range.get_min_value()));
